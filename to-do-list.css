@@ -122,7 +122,7 @@ li.checked-task{
    
   background-color:#7b2240;
   color:#fff;
-  margin-left:522px;
+  margin-left:460px;
   padding-top:7px;
   padding-bottom: 7px;
   padding-right:15px;
@@ -136,8 +136,4 @@ li.checked-task{
 .dlt_button:hover{
   opacity: 0.6;
   cursor:pointer;
-}
-.btn-align{
-  
-  
 }
