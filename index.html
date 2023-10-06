@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="to-do-list.css">
+
+  <title>To-Do-List</title>
+</head>
+
+<body>
+  <div id="container">
+    <div class="title-container">
+      <img class="bc-logo" src="BClogo.png" height="50" title="TODO List for BC Students">
+      <h1 class="title">My To-Do-List</h1>
+
+    </div>
+
+    <div class="text-box">
+      <input type="text" id="input" placeholder="Add a task">
+
+      <button id="add-button" onclick="addAndRemoveTasks()">Add</button>
+
+    </div>
+    <div class="btn-align">
+      <ul id="task-list">
+
+
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!--External JavaScript File-->
+  <script src="to-do-list.js"></script>
+  <!--Font Awesome Icons Kit File Link-->
+  <script src="https://kit.fontawesome.com/01bf0292eb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

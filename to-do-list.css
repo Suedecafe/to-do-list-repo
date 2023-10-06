@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-image:url("BC.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+}
+#container{
+  margin-left:350px;
+  margin-top:50px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family:sans-serif;
+  border-style:solid;
+  border-radius:10px;
+  background-color:#fff;
+  
+  padding-left:50px;
+  padding-right:150px;
+  padding-bottom: 200px;
+  padding-top:10px;
+  
+}
+
+
+.title{
+  font-family: sans-serif;
+  color: #7b2240;
+  vertical-align: middle;
+  margin-left:20px;
+  
+}
+.bc-logo{
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+  
+}
+
+.title-container{
+  display: flex; 
+  align-items: center;
+  margin-bottom:20px;
+  background-color: white;
+}
+
+.text-box{
+  border-radius:5px;
+  }
+input{
+  border-radius: 10px;
+        width: 400px;
+        height: 35px;
+        padding-left: 15px;
+        padding-right:15px;
+        border-style: solid;
+        
+        vertical-align: middle;
+}
+input[type="text"]::placeholder{
+  text-align: left;
+  
+}
+#add-button{
+  border-radius: 10px;
+        width: 70px;
+        height: 35px;
+        padding-left: 15px;
+        padding-right:15px;
+        border-style: solid;
+        margin-left:115px;
+        
+        vertical-align: middle;
+        background-color:#7b2240;
+        color:#fff;
+        font-weight: bold;
+        
+      
+}
+#add-button:hover{
+  cursor:pointer;
+  opacity: 0.7;
+}
+
+li{
+  list-style: none;
+  margin-left:0px;
+  margin-top:40px;
+  background-color: #7b2240;
+  color:#fff;
+  border-style:solid;
+  border-radius: 10px;
+  padding-left:10px;
+  padding-top:12px;
+  width:400px;
+  height:55px;
+  cursor: pointer;
+  display: flex;
+  
+vertical-align: middle;
+}
+
+li.checked-task{
+  background-color: green;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.dlt_button{
+  
+  vertical-align: middle;
+   
+   align-items: center;
+   
+  background-color:#7b2240;
+  color:#fff;
+  margin-left:522px;
+  padding-top:7px;
+  padding-bottom: 7px;
+  padding-right:15px;
+  padding-left:15px;
+  border:none;
+  
+  position:fixed;
+  border-radius:5px;
+  
+}
+.dlt_button:hover{
+  opacity: 0.6;
+  cursor:pointer;
+}
+.btn-align{
+  
+  
+}
