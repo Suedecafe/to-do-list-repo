@@ -12,7 +12,7 @@ body{
   
   position: absolute;
   top: 40%;
-  left: 55%;
+  left: 50%;
   
   transform: translate(-50%, -50%);
   display: inline-block;
@@ -100,9 +100,10 @@ li{
   cursor: pointer;
   display: flex;
   align-items: center;
-  
+
 
 }
+
 
 li.checked-task{
   background-color: green;
@@ -116,15 +117,16 @@ li.checked-task{
    
    align-items: center;
    
-  background-color:#fff;
-  color:#7b2240;
+  background-color:#7b2240;
+  color:#fff;
   width:7%;
-  height:57px;
-  margin-left:345px;
-  border:none;
-  
+  height:45px;
+  margin-left:341px;
+  border:black;
+  border-style:solid;
+  margin-bottom: 12px;
   position: fixed;
-  border-radius:0px;
+  border-radius:5px;
   
 }
 .dlt_button:hover{
