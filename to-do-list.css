@@ -124,10 +124,10 @@ li.checked-task {
   vertical-align: middle;
   align-items: center;
   background-color: #7b2240;
-  color: #fff;
-  width: 10%;
+  color: #ff0202d7;
+  width: 35px;;
   height: 45px;
-  margin-left: 341px;
+  margin-left: 350px;
   border: black;
   border-style: solid;
   margin-bottom: 12px;
@@ -137,7 +137,8 @@ li.checked-task {
 }
 
 .dlt_button:hover {
-  opacity: 0.6;
+  color:rgb(255, 40, 40);
+  background-color: #7b2240b6;
   cursor: pointer;
 }
 
