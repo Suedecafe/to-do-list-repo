@@ -14,7 +14,11 @@ body{
 }
 #container{
   
-  margin-top:50px;
+  top:0px;
+  right:0px;
+  left:0px;
+  bottom:0px;
+  position: absolute;
   display: inline-block;
   vertical-align: middle;
   font-family:sans-serif;
@@ -22,10 +26,6 @@ body{
   border-radius:10px;
   background-color:#fff;
   
-  padding-left:50px;
-  padding-right:150px;
-  padding-bottom: 200px;
-  padding-top:10px;
   
 }
 
