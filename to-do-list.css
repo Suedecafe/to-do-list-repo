@@ -17,8 +17,7 @@ body{
   display: inline-block;
   vertical-align: middle;
   font-family:sans-serif;
-  border-style:solid;
-  border-radius:10px;
+  align-items: center;
   background-color:#fff;
   
   
@@ -118,7 +117,8 @@ li.checked-task{
   background-color:#7b2240;
   color:#fff;
   width:10%;
-  margin-left:415px;
+  height:25px;
+  margin-left:525px;
   border:none;
   
   
